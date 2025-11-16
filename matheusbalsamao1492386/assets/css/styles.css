@@ -1,0 +1,124 @@
+/* styles.css — 100% do estilo centralizado aqui (sem inline / sem utilitários visuais) */
+
+/* Paleta e base */
+:root {
+  --bg: #0b0b0d;
+  --card: #111214;
+  --muted: #9aa0a6;
+  --accent: #f6b93b; /* dourado */
+  --primary: #1e90ff;
+  --border: #2b2e33;
+  --text: #e6e6e6;
+  --text-strong: #ffffff;
+}
+
+html, body { height: 100%; }
+.page {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height: 1.5;
+}
+
+/* Container */
+.container { max-width: 1100px; }
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.logo-link {
+  color: var(--accent);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.back-link { color: var(--primary); text-decoration: none; }
+
+/* Nav */
+.site-nav__link {
+  color: var(--text);
+  text-decoration: none;
+  margin-left: .75rem;
+}
+.site-nav__link:first-child { margin-left: 0; }
+.site-nav__link:hover { color: var(--primary); }
+
+/* Main */
+.page-main { margin-bottom: 2rem; }
+
+/* Sections */
+.section { margin-bottom: 2rem; }
+.section__title { font-size: 1.125rem; margin-bottom: .75rem; color: var(--text-strong); }
+.section__subtitle { font-size: 1rem; margin-bottom: .5rem; color: var(--text-strong); }
+.section--bordered { border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 1rem; }
+
+/* About */
+.about__left .about__line { margin: 0 0 .25rem 0; }
+.about__right { text-align: right; }
+.muted { color: var(--muted); }
+
+/* Cards */
+.cards-grid { margin-top: .5rem; }
+.card {
+  background: linear-gradient(180deg, var(--card), #0f1112);
+  border: none;
+  color: var(--text);
+  height: 100%;
+  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+}
+.card .card-title { color: var(--text-strong); font-weight: 600; font-size: 1rem; margin-bottom: .35rem; }
+.card .card-text { font-size: .9rem; color: var(--muted); }
+.card .card-body { display: flex; flex-direction: column; }
+.card .card-actions { margin-top: auto; text-align: right; }
+.card-img-top { height: 320px; object-fit: cover; }
+@media (max-width: 576px) { .card-img-top { height: 180px; } }
+
+/* Carousel */
+#carouselDestaque .carousel-item img {
+  height: clamp(220px, 42vh, 480px);
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-caption {
+  bottom: 1.25rem;
+}
+.carousel-caption__box {
+  background: rgba(0,0,0,.55);
+  border-radius: .5rem;
+  padding: .5rem .75rem;
+}
+.carousel-caption__title { font-weight: 700; color: var(--text-strong); margin: 0; }
+.carousel-caption__text { margin: .25rem 0 0 0; }
+
+/* Botões */
+.btn-detalhes {
+  background-color: var(--accent);
+  color: #000;
+  border: 1px solid var(--accent);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: .4rem .6rem;
+  border-radius: .35rem;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-detalhes:hover {
+  background-color: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--border);
+  text-align: center;
+  padding: .75rem 0;
+}

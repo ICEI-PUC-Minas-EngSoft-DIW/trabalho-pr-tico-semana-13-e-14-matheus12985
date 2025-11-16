@@ -1,0 +1,184 @@
+{
+  "filmes": [
+    {
+      "id": "1",
+      "titulo": "Inception",
+      "descricao": "Um ladrão invade sonhos para extrair e implantar ideias.",
+      "sinopse": "Dom Cobb é um ladrão habilidoso que extrai segredos da mente das pessoas enquanto elas dormem, entrando em seus sonhos e roubando informações do subconsciente.",
+      "ano": 2010,
+      "genero": "Ficção Científica / Ação",
+      "diretor": "Christopher Nolan",
+      "duracao": "148 min",
+      "avaliacao": "8.8/10",
+      "destaque": true,
+      "imagem": "assets/img/inception1.jpg",
+      "galeria": [
+        "assets/img/inception2.jpg",
+        "assets/img/inception3.jpg",
+        "assets/img/inception4.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Interstellar",
+      "descricao": "Viagem espacial através de um buraco de minhoca para salvar a humanidade.",
+      "sinopse": "Exploradores usam um buraco de minhoca para buscar um novo lar para a humanidade. Uma história sobre família, tempo e escolhas difíceis.",
+      "ano": 2014,
+      "genero": "Ficção Científica / Drama",
+      "diretor": "Christopher Nolan",
+      "duracao": "169 min",
+      "avaliacao": "8.6/10",
+      "destaque": true,
+      "imagem": "assets/img/interestelar1.jpg",
+      "galeria": [
+        "assets/img/interestelar2.jpg",
+        "assets/img/interestelar3.jpg",
+        "assets/img/interestelar4.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": "O Cavaleiro das Trevas",
+      "descricao": "Batman enfrenta o Coringa em uma batalha que põe Gotham em colapso.",
+      "sinopse": "O Coringa desafia o senso de justiça de Batman e coloca Gotham em caos, forçando o herói a tomar decisões extremas para salvar a cidade.",
+      "ano": 2008,
+      "genero": "Ação / Crime",
+      "diretor": "Christopher Nolan",
+      "duracao": "152 min",
+      "avaliacao": "9.0/10",
+      "destaque": true,
+      "imagem": "assets/img/batman1.jpg",
+      "galeria": [
+        "assets/img/batman2.jpg",
+        "assets/img/batman3.jpg",
+        "assets/img/batman4.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "titulo": "Coringa",
+      "descricao": "A origem sombria de um dos vilões mais icônicos dos quadrinhos.",
+      "sinopse": "Arthur Fleck é um comediante fracassado que, após uma série de eventos traumáticos, se transforma no vilão Coringa.",
+      "ano": 2019,
+      "genero": "Drama / Crime",
+      "diretor": "Todd Phillips",
+      "duracao": "122 min",
+      "avaliacao": "8.4/10",
+      "destaque": false,
+      "imagem": "assets/img/coringa1.jpg",
+      "galeria": [
+        "assets/img/coringa2.jpg",
+        "assets/img/coringa3.jpg",
+        "assets/img/coringa4.jpg"
+      ]
+    },
+    {
+      "id": "5",
+      "titulo": "Duna",
+      "descricao": "Um jovem herdeiro se envolve em conflitos políticos e espirituais em um planeta deserto.",
+      "sinopse": "Paul Atreides precisa enfrentar desafios em Arrakis, um planeta deserto cobiçado pelo seu recurso mais valioso: a especiaria.",
+      "ano": 2021,
+      "genero": "Ficção Científica / Aventura",
+      "diretor": "Denis Villeneuve",
+      "duracao": "155 min",
+      "avaliacao": "8.1/10",
+      "destaque": false,
+      "imagem": "assets/img/duna1.jpg",
+      "galeria": [
+        "assets/img/duna2.jpg",
+        "assets/img/duna3.jpg",
+        "assets/img/duna4.jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "titulo": "Oppenheimer",
+      "descricao": "A história de J. Robert Oppenheimer e o desenvolvimento da bomba atômica.",
+      "sinopse": "A biografia de Oppenheimer explora as decisões morais e científicas por trás do Projeto Manhattan.",
+      "ano": 2023,
+      "genero": "Drama Histórico",
+      "diretor": "Christopher Nolan",
+      "duracao": "180 min",
+      "avaliacao": "8.5/10",
+      "destaque": false,
+      "imagem": "assets/img/Oppenheimer1.jpg",
+      "galeria": [
+        "assets/img/Oppenheimer2.jpg",
+        "assets/img/Oppenheimer3.jpg",
+        "assets/img/Oppenheimer4.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "titulo": "Matrix",
+      "descricao": "Um hacker descobre a natureza simulada da realidade.",
+      "sinopse": "Neo descobre que o mundo é uma simulação e se une a rebeldes para libertar a humanidade das máquinas.",
+      "ano": 1999,
+      "genero": "Ficção Científica / Ação",
+      "diretor": "Lana e Lilly Wachowski",
+      "duracao": "136 min",
+      "avaliacao": "8.7/10",
+      "destaque": true,
+      "imagem": "assets/img/matrix1.jpg",
+      "galeria": [
+        "assets/img/matrix2.jpg",
+        "assets/img/matrix3.jpg",
+        "assets/img/matrix4.jpg"
+      ]
+    },
+    {
+      "id": "8",
+      "titulo": "Avatar",
+      "descricao": "Um ex-fuzileiro navega conflitos entre humanos e um povo alienígena em Pandora.",
+      "sinopse": "Jake Sully se envolve com o povo Na'vi e precisa escolher entre seguir ordens ou proteger seu novo lar.",
+      "ano": 2009,
+      "genero": "Ficção Científica / Fantasia",
+      "diretor": "James Cameron",
+      "duracao": "162 min",
+      "avaliacao": "7.8/10",
+      "destaque": false,
+      "imagem": "assets/img/avatar1.jpg",
+      "galeria": [
+        "assets/img/avatar2.jpg",
+        "assets/img/avatar3.jpg",
+        "assets/img/avatar4.jpg"
+      ]
+    },
+    {
+      "id": "9",
+      "titulo": "Top Gun: Maverick",
+      "descricao": "Maverick retorna como instrutor e enfrenta o passado.",
+      "sinopse": "Maverick treina uma nova geração de pilotos de elite, enquanto enfrenta memórias e consequências de sua carreira.",
+      "ano": 2022,
+      "genero": "Ação / Drama",
+      "diretor": "Joseph Kosinski",
+      "duracao": "131 min",
+      "avaliacao": "8.3/10",
+      "destaque": false,
+      "imagem": "assets/img/topgun1.jpg",
+      "galeria": [
+        "assets/img/topgun2.jpg",
+        "assets/img/topgun3.jpg",
+        "assets/img/topgun4.jpg"
+      ]
+    },
+    {
+      "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+      "descricao": "Um grupo improvável parte em uma jornada para destruir um anel poderoso.",
+      "sinopse": "Frodo e seus companheiros precisam destruir o Um Anel para impedir o retorno de Sauron.",
+      "ano": 2001,
+      "genero": "Fantasia / Aventura",
+      "diretor": "Peter Jackson",
+      "duracao": "178 min",
+      "avaliacao": "8.8/10",
+      "destaque": false,
+      "imagem": "assets/img/sociedade1.jpg",
+      "galeria": [
+        "assets/img/sociedade2.jpg",
+        "assets/img/sociedade3.jpg",
+        "assets/img/sociedade4.jpg"
+      ],
+      "id": "10"
+    }
+  ]
+}
