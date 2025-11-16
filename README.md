@@ -24,6 +24,6 @@ O resultado é um sistema funcional, visualmente organizado e tecnicamente consi
 
 << Nesta etapa foi implementada a apresentação dinâmica dos dados, integrando o projeto desenvolvido anteriormente com o uso de bibliotecas externas. A partir dos filmes cadastrados via JSON Server, foi criada uma nova página destinada à visualização interativa das informações, utilizando a biblioteca Chart.js. Foram desenvolvidos gráficos dinâmicos que processam os dados em tempo real, permitindo identificar padrões como a distribuição de filmes por gênero e a média de avaliações por ano. Essa implementação reforça o uso de requisições assíncronas (fetch), manipulação de JSON, renderização dinâmica no front-end e integração com APIs, consolidando todo o conteúdo trabalhado nas etapas anteriores.>>
 
-<<  ![Tela de Cadastro](assets/img/Cadastro.PNG) >>
+<<  ![Tela de Cadastro](matheusbalsamao1492386/assets/img/Cadastro.PNG) >>
 
-<<  ![Tela de Graficos](assets/img/Dashbord.PNG) >>
+<<  ![Tela de Graficos](matheusbalsamao1492386/assets/img/Dashbord.PNG) >>
